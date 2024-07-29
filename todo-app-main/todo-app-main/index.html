@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <title>Frontend Mentor | Todo app</title>
+</head>
+<body id="body">
+
+  <section class="header" data-background>
+    <div class="title">
+      <h1>Todo</h1>
+      <button class="toggle-theme"><img src="images/icon-moon.svg" alt="icon-moon" data-toggle-theme></button>
+    </div>
+  </section>
+
+<main class="main-section">
+
+    <div class="enter-todo">
+      <input type="checkbox" data-check>
+      <input type="text" placeholder="Create a new todo..." data-input>
+    </div>
+    <div class="todo-container">
+      <div class="wrapper">
+        <ul class="todos" data-todos>
+          <!-- <li class="todo">shopping <img src="images/icon-cross.svg" alt=""></li>
+          <li class="todo">football <img src="images/icon-cross.svg" alt=""></li>
+          <li class="todo">sport <img src="images/icon-cross.svg" alt=""></li> -->
+     </ul>
+      </div>
+
+
+      <div class="filter-content">
+         <span data-items> items left</span>
+         <div class="status">
+          <span data-all>All</span>
+          <span data-active>Active</span>
+          <span data-completed>Completed</span>
+         </div>
+         <span data-clear>Clear Completed</span>
+      </div>
+    </div>
+  
+</main>
+
+
+ <script type="module" src="script.js">
+
+ </script>
+</body>
+</html>
